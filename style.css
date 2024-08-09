@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(250, 241, 226);
+    width:100vw;
+   
+}
+h1,h2,h3,h4,h5,h6, p, a, li,td ,th{
+    color:rgb(97, 78, 53);
+}
+.Info a{
+    text-decoration: none;
+    transition: color 1s;
+}
+.Info a:hover{
+    color:rgb(245, 193, 34);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.portfolio{
+    padding-left: 20%;
+    padding-top:5%;
+    padding-right: 10%;
+}
+.profilePic{
+    border-radius: 50% 50% 0 0;
+    border:1px solid rgb(97, 78, 53);
+    height:18vw;
+    width:18vw;
+}
+
+.headerInfo{
+    margin-left:10rem;
+
+}
+.title{
+    margin-top: -1rem;
+}
+.position{
+    margin-top: -15px;
+    padding-left: 5px;
+}
+.summary{
+    padding-top: 2rem;
+    padding-right :2rem;
+    width:40vw;
+}
+.contactBG{
+    width:65vw;
+    height: 28vh;
+    position:absolute;
+    top:23vh;
+    left:35vw;
+    z-index: -2;
+}
+.contactInfo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 85%;
+    height: 10vh;
+    
+
+}
+
+.Info{
+    width:45%;
+    padding-left: 5%;
+    color:  rgb(250, 241, 226);
+}
+.resume{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.education{
+    width:30vw;
+    height: 35vh;
+    margin-bottom: 5vh;
+    z-index: 2;
+    
+}
+
+.eduTitle{
+    text-align: center;
+}
+.schoolName{
+    margin-top: 0.2vh;
+    margin-bottom: 0.5vh;
+}
+.major, .schoolDate{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.subEdu{
+    height: 80%;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.skills{
+    width:30vw;
+    height:30vh;
+}
+.skillsTitle{
+    padding-left: 30px;
+}
+.skillsBody{
+    padding-left: 10px;
+}
+.skillsBG{
+    width:25vw;
+    height:40vh;
+    position: absolute;
+    top:63vh;
+    left:55vw;
+    z-index: -1;
+}
+.experience{
+    width:30vw;
+    height:30vh;
+    margin-top: 20vh;
+    padding-left: 10vw;
+
+}
+.company{
+    margin-top: 0.2vh;
+    margin-bottom: 0.5vh;
+}
+.location, .role, .jobDate{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.tasks{
+    width:50%;
+}
+.tasks li{
+    font-size: 12px;
+}
+.language{
+    width:30vw;
+    height:30vh;
+    margin-top:3rem;
+}
+.languTitle{
+    text-align: center;
+}
+.languageBody{
+   
+    width:100%;
+    height: 70%;
+}
+
+.languageBody table{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+.languageBody table tr{
+    width:50%;
+    height: 5%;
+}
+.languageBG{
+    width:65vw;
+    height:60vh;
+    position: absolute;
+    top:100vh;
+    left:40vw;
+    z-index: -1;
+}
+.educationBG{
+    width:35vw;
+    height: 70vh;
+    z-index: -1;
+    position: absolute;
+    top:50vh;
+    left: 20vw;
+}
+.experienceBG{
+    width:35vw;
+    height: 50vh;
+    z-index: -1;
+    position: absolute;
+    top:120vh;
+    left: 20vw;
+}
+aside{
+    
+    width:5vw;
+    height: 50vh;
+    position: absolute;
+    top:50vh;
+    left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    align-items: center;
+
+}
+aside a{
+    color:  rgb(250, 241, 226);
+    font-size: 30px;
+}
+.social{
+   
+    width:15vw;
+    height: 53vh;
+    z-index: -1;
+    position: absolute;
+    top:50vh;
+    left: 7vw;
+}
